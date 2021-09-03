@@ -86,6 +86,7 @@ func Provider() terraform.ResourceProvider {
 			"gitlab_group_variable":             resourceGitlabGroupVariable(),
 			"gitlab_project_access_token":       resourceGitlabProjectAccessToken(),
 			"gitlab_project_cluster":            resourceGitlabProjectCluster(),
+			"gitlab_project_repository_file":    resourceGitlabProjectRepositoryFile(),
 			"gitlab_service_slack":              resourceGitlabServiceSlack(),
 			"gitlab_service_jira":               resourceGitlabServiceJira(),
 			"gitlab_service_github":             resourceGitlabServiceGithub(),
